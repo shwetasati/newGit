@@ -129,3 +129,43 @@ warning: You appear to have cloned an empty repository.
 Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
 
 
+$ git remote add colours.json.txt https://github.com/shwetasati/newGit.git
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Bhanu/Desktop/GIT/.git/
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+$ git remote -v
+colours.json.txt        https://github.com/shwetasati/newGit.git (fetch)
+colours.json.txt        https://github.com/shwetasati/newGit.git (push)
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+$ git add .
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+$ git commit -m "firstcommit"
+[master 0394eed] firstcommit
+ 1 file changed, 131 insertions(+)
+ create mode 100644 GIT hands on.txt
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+$ git push ^C
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+$ git push colours.json.txt master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.65 KiB | 1.65 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/shwetasati/newGit/pull/new/master
+remote:
+To https://github.com/shwetasati/newGit.git
+ * [new branch]      master -> master
+
+Bhanu@LAPTOP-90U5T4AN MINGW64 ~/Desktop/GIT (master)
+
