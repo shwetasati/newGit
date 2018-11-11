@@ -2,7 +2,7 @@
   "colors": [
     {
       "color": "black",
-      "category": "hue",
+      "category": "huedue",
       "type": "primary",
       "code": {
         "rgba": [255,255,255,1],
